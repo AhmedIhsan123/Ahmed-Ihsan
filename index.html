@@ -20,11 +20,13 @@
 					<li><a href="#work-section">Work</a></li>
 					<li><a href="#projects-section">Projects</a></li>
 				</ul>
+
+				<div class="hamburger" id="hamburgerBtn">&#9776;</div>
 			</nav>
 		</header>
 
 		<main>
-			<section>
+			<section class="welcome-message-container">
 				<h1>Hello, I'm <span id="typed"></span></h1>
 				<p id="welcome-message">
 					I am an aspiring software developer at Green River College with a
@@ -35,7 +37,7 @@
 			</section>
 
 			<section id="education-section">
-				<h1>Education</h1>
+				<h1 class="section-title">Education</h1>
 
 				<div class="education-container hover-glow">
 					<div>
@@ -109,7 +111,7 @@
 			</section>
 
 			<section id="work-section">
-				<h1>Work Experience</h1>
+				<h1 class="section-title">Work Experience</h1>
 
 				<div class="work-container">
 					<!-- Job experience 1 -->
@@ -189,7 +191,7 @@
 			</section>
 
 			<section id="projects-section">
-				<h1>Projects</h1>
+				<h1 class="section-title">Projects</h1>
 
 				<div class="projects-container">
 					<div
@@ -199,6 +201,12 @@
 						<div>
 							<h2>Oxygen Rush</h2>
 							<p class="dates">May 2024</p>
+							<a
+								class="project-visit-link"
+								href="https://drowz1212.itch.io/oxygen-rush"
+								target="_blank"
+								>Visit page</a
+							>
 						</div>
 
 						<div class="slideshow-container">
@@ -213,6 +221,9 @@
 							</div>
 							<div class="OR-slide fade">
 								<img src="./Images/OR_Img_4.png" alt="" />
+							</div>
+							<div class="OR-slide fade">
+								<img src="./Images/OR_Img_5.png" alt="" />
 							</div>
 							<a class="prev" onclick="changeSlide('oxygenRushSlideshow', -1)"
 								>&#10094;</a
@@ -230,6 +241,12 @@
 						<div>
 							<h2>Escape Room</h2>
 							<p class="dates">Apr 2025 - May 2025</p>
+							<a
+								class="project-visit-link"
+								href="https://drowz1212.itch.io/escape-room"
+								target="_blank"
+								>Visit page</a
+							>
 						</div>
 
 						<div class="slideshow-container">
@@ -241,6 +258,12 @@
 							</div>
 							<div class="ER-slide fade">
 								<img src="./Images/ER_Img_3.png" alt="" />
+							</div>
+							<div class="ER-slide fade">
+								<img src="./Images/ER_Img_4.png" alt="" />
+							</div>
+							<div class="ER-slide fade">
+								<img src="./Images/ER_Img_5.png" alt="" />
 							</div>
 							<a class="prev" onclick="changeSlide('escapeRoomSlideshow', -1)"
 								>&#10094;</a
